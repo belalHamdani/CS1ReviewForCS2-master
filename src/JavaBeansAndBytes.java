@@ -47,8 +47,8 @@ public class JavaBeansAndBytes {
         // TODO
         // Add parameter to specialOfTheDay (drink of your choice)
         specialOfTheDay(drink);
-        drink = "milk";
-        System.out.println("The special of the day is " + drink);
+
+
 
         countCups();
         baristasChoice();
@@ -59,6 +59,9 @@ public class JavaBeansAndBytes {
        CreamyBerry = new CoffeeDrink(4, "Berry", true);
         LemonyFresh.printInfo();
         CreamyBerry.printInfo();
+        LemonyFresh.setFlavor("water");
+        String newSpecial = CreamyBerry.getFlavor();
+        specialOfTheDay(newSpecial);
 
 
         // TODO
@@ -83,6 +86,8 @@ public class JavaBeansAndBytes {
         // TODO
         // Make this method accept a parameter representing the day’s special.
         // Print the day's special.
+        drink = "milk";
+        System.out.println("The special of the day is " + drink);
     }
 
     // Method to show loops
