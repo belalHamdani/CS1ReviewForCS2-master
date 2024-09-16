@@ -36,5 +36,11 @@ class CoffeeDrink {
     public String getFlavor(){
         return flavor;
     }
+    public void setNumberOfCups(int numberOfCups){
+        this.numberOfCups = numberOfCups;
+    }
+    public int getNumberOfCups(){
+        return numberOfCups;
+    }
 
 }

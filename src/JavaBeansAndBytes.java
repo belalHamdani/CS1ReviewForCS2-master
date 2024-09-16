@@ -61,6 +61,7 @@ public class JavaBeansAndBytes {
         CreamyBerry.printInfo();
         LemonyFresh.setFlavor("water");
         String newSpecial = CreamyBerry.getFlavor();
+
         specialOfTheDay(newSpecial);
 
 
