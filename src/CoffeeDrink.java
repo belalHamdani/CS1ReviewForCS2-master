@@ -36,4 +36,5 @@ class CoffeeDrink {
     public String getFlavor(){
         return flavor;
     }
+
 }

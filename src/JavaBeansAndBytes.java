@@ -10,11 +10,11 @@ import java.util.Random;
 public class JavaBeansAndBytes {
 
     // Variables for the CoffeeShop
-    String name;
-    boolean isOpen;
-    int yearFounded;
-    String drink;
-    int rand;
+    private String name;
+    private boolean isOpen;
+    private int yearFounded;
+    private String drink;
+    private int rand;
     public CoffeeDrink LemonyFresh;
     public CoffeeDrink CreamyBerry;
 
@@ -81,13 +81,13 @@ public class JavaBeansAndBytes {
     }
 
     // Method with a parameter for the special of the day
-    public void specialOfTheDay(String milk)
+    public void specialOfTheDay(String specialDrink)
     {
         // TODO
         // Make this method accept a parameter representing the day’s special.
         // Print the day's special.
-        drink = "milk";
-        System.out.println("The special of the day is " + drink);
+        this.drink = specialDrink;
+        System.out.println("The special of the day is " + this.drink + ".");
     }
 
     // Method to show loops
@@ -139,5 +139,7 @@ public class JavaBeansAndBytes {
             System.out.println("lemonade");
         }
     }
+
 }
+
 
